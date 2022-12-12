@@ -16,12 +16,10 @@ function changeText() {
 
 	if (body.classList.contains(darkModeClass)) {
 		button.innerHTML = lightMode;
-		h1.innerHTML = darkMode + ' ON';
 		return;
 	}
 
 	button.innerHTML = darkMode;
-	h1.innerHTML = lightMode + ' ON';
 }
 
 const darkModeClass = 'dark-mode';
