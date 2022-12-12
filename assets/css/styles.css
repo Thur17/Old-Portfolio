@@ -287,26 +287,22 @@ footer.dark-mode {
 }
 
 @media screen and (min-width: 640px){
-    body, .button-certificados, .certificados {
+    body {
        display: grid;
        grid-template-columns: 1fr;
-
     }
 }
 
 @media screen and (min-width: 768px){
-     body, .button-certificados, .certificados {
+     body {
         display: grid;
         grid-template-columns: 1fr;
-
      }
 }
 
 @media screen and (min-width: 960px){
-    body, .button-certificados, .certificados {
+    body {
        display: grid;
-       grid-template-columns: 1fr 1fr;
-
+       grid-template-columns: 1fr;
     }
 }
-
