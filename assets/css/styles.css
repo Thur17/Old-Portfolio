@@ -82,7 +82,7 @@ button.dark-mode:hover {
     border-radius: 40px;
 	border: none;
     height: 60px;
-	width: 400px;
+	width: 250px;
     border: solid ;
 	text-decoration: none;
 	color: #e5e8e8;
@@ -287,7 +287,7 @@ footer.dark-mode {
 }
 
 @media screen and (min-width: 640px){
-    body {
+    body, .button-certificados, .certificados {
        display: grid;
        grid-template-columns: 1fr;
 
@@ -295,7 +295,7 @@ footer.dark-mode {
 }
 
 @media screen and (min-width: 768px){
-     body {
+     body, .button-certificados, .certificados {
         display: grid;
         grid-template-columns: 1fr;
 
@@ -303,9 +303,10 @@ footer.dark-mode {
 }
 
 @media screen and (min-width: 960px){
-    body {
+    body, .button-certificados, .certificados {
        display: grid;
        grid-template-columns: 1fr 1fr;
 
     }
 }
+
